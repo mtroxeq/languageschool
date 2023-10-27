@@ -1,12 +1,18 @@
 body{
   margin: 0;
-  overflow: hidden;
 }
 
 header{
   height: 5rem;
   background-color: #1C5D99;
   padding: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+
+header span{
+  font-family: 'Lobster', sans-serif;
+  font-size: 2rem;
 }
 
 header p{
@@ -19,8 +25,14 @@ header p{
   height: 42vh;
   display:flex;
   justify-content: left;
+  flex-direction: column;
   align-items: center;
   padding: 1rem;
+}
+
+.LeftPanel h2{
+  font-family: 'Lobster', sans-serif;
+  color: white;
 }
 
 .RightPanel{
