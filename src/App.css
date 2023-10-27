@@ -1,11 +1,16 @@
 body{
   margin: 0;
-  overflow: hidden;
+  padding: 0;
 }
 
 header{
   height: 5rem;
   background-color: #1C5D99;
+  padding: 1rem;
+}
+
+header p{
+  margin: 0;
 }
 
 .LeftPanel{
@@ -15,10 +20,12 @@ header{
   display:flex;
   justify-content: left;
   align-items: center;
+  padding: 1rem;
 }
 
 .RightPanel{
   width: 40%;
+  padding: 1rem;
   background-color: #222222;
   height: 42vh;
   justify-content: right;
@@ -29,6 +36,7 @@ header{
   width: 100%;
   background-color: #BBCDE5;
   height: 25rem;
+  padding: 1rem;
   justify-content: right;
   align-items: center;
 }
@@ -36,6 +44,8 @@ header{
 footer{
   background-color: #1C5D99;
   height: 5rem;
+  padding: 1rem;
+
 }
 .Main{
   display: flex;
