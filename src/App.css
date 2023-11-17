@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 
 header{
@@ -24,24 +26,26 @@ header p{
   background-color: #639FAB;
   height: 42vh;
   display:flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
 }
 
-.LeftPanel h2{
+/*.LeftPanel h2{
   font-family: 'Lobster', sans-serif;
   color: white;
-}
+}*/
 
 .RightPanel{
   width: 40%;
   padding: 1rem;
   background-color: #222222;
   height: 42vh;
-  justify-content: right;
+  justify-content: center;
+  display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .BottomPanel{
@@ -61,4 +65,13 @@ footer{
 }
 .Main{
   display: flex;
+}
+
+.LeftPanel ul li{
+  font-size: 1.5rem;
+}
+
+.RightPanel h1, p{
+  color: #fff;
+
 }
