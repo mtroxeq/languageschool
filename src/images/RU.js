@@ -1,5 +1,6 @@
 import React from "react";
-import ru from "./src/images/ru.png";
+import ru from "./ru.png";
+
 function RU(){
     return(
         <img src={ru} alt="russia" />

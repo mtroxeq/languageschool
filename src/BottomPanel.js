@@ -6,7 +6,10 @@ import SP from "./images/SP";
 function BottomPanel(){
     return(
         <article className='BottomPanel'>
-            
+            <FR />
+            <GB />
+            <RU />
+            <SP />
         </article>
     );
 }

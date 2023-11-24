@@ -13,13 +13,15 @@ header{
 }
 
 footer{
-  height: 5rem;
+  height: 8rem;
   background-color: #1C5D99;
   padding: 1rem;
   font-family: 'Fira Sans', sans-serif;
   color: white;
+  flex-direction: column;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -68,12 +70,16 @@ footer p{
 }
 
 .BottomPanel{
-  width: 100%;
   background-color: #BBCDE5;
   height: 25rem;
   padding: 1rem;
-  justify-content: right;
+  justify-content: center;
+  display: flex;
   align-items: center;
+}
+
+.BottomPanel img{
+  padding-left: 2rem;
 }
 
 .Main{
@@ -110,3 +116,4 @@ footer p{
   color: black;
 
 }
+

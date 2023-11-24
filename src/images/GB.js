@@ -1,5 +1,5 @@
 import React from "react";
-import gb from "../src/images/gb.png";
+import gb from "./gb.png";
 
 function GB(){
     return(

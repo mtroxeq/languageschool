@@ -1,5 +1,5 @@
 import React from "react";
-import fr from "./src/images/fr.png";
+import fr from "./fr.png";
 
 function FR(){
     return(

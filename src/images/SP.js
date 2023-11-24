@@ -1,5 +1,5 @@
 import React from "react";
-import sp from "../src/images/flag-spain_1f1ea-1f1f8.png";
+import sp from "./flag-spain_1f1ea-1f1f8.png";
 
 function SP(){
     return(
