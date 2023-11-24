@@ -26,25 +26,26 @@ function Registration() {
   };
 
   return (
-    <div className="Signup">
+    <div className="Registration">
       <h1>Rejestracja</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Imię: </label>
-        <input type="text" name="name" placeholder="Podaj imię" onChange={handleChange} />
-        <label htmlFor="name">Nazwisko: </label>
-        <input type="text" name="lastName" placeholder="Podaj nazwisko" onChange={handleChange} />
-        <label htmlFor="password">Hasło: </label>
-        <input type="password" name="password" placeholder="Wpisz hasło" onChange={handleChange} />
-        <label htmlFor="email">E-mail: </label>
-        <input type="text" name="email" placeholder="Wpisz e-mail" onChange={handleChange} />
-        <label htmlFor="language">Język: </label>
-        <select name="language">
+        <label htmlFor="name">Imię: </label><br />
+        <input type="text" name="name" placeholder="Podaj imię" onChange={handleChange} /><br />
+        <label htmlFor="name">Nazwisko: </label><br />
+        <input type="text" name="lastName" placeholder="Podaj nazwisko" onChange={handleChange} /><br />
+        <label htmlFor="password">Hasło: </label><br />
+        <input type="password" name="password" placeholder="Wpisz hasło" onChange={handleChange} /><br />
+        <label htmlFor="email">E-mail: </label><br />
+        <input type="text" name="email" placeholder="Wpisz e-mail" onChange={handleChange} /><br />
+        <label htmlFor="language">Język: </label><br />
+        <select name="language" onChange={handleChange}><br />
             <option value="english">Angielski</option>
             <option value="russian">Rosyjski</option>
             <option value="french">Francuski</option>
             <option value="english">Niemiecki</option>
             <option value="spanish">Hiszpański</option>
         </select>
+        <br /><br />
         <button type="submit">Zapisz się</button>
       </form>
     </div>
